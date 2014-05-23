@@ -38,7 +38,9 @@ Or install it yourself as:
 
 ## Usage
 
-    $ pretty_qrcode input.jpg output.jpg 'http://github.com/dongqs/pretty_qrcode' [version] [correction_level]
+default version is 4, which is not enough for a url like 'https://github.com/dongqs/pretty_qrcode'. In this case, try a bigger version like 5 or 6.
+
+    $ pretty_qrcode input.jpg output.jpg 'hello world' [version] [correction_level]
 
 ## References
 
