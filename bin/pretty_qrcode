@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+require 'pretty_qrcode'
+
+if ARGV.length < 3
+  puts "usage:\npretty_qrcode input.jpg output.jpg 'hello world data' [version] [correction_level]"
+  exit
+end
+
+size = (ARGV[3] || 4).to_i
+level = (ARGV[4] || :h).to_sym
+
+pq = PrettyQrcode.new ARGV[2], ARGV[0], size: size, level: level
+pq.make
+pq.save ARGV[1]
