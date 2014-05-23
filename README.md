@@ -8,8 +8,17 @@ Yes
 
 ## Requirements
 
-imagemagicky
-http://www.imagemagick.org/
+ImageMagicky
+
+    http://www.imagemagick.org/
+
+install on Mac OS
+
+    brew install ImageMagick
+
+install on Ubuntu
+
+    sudo apt-get install imagemagick libmagickwand-dev
 
 ## Installation
 
@@ -29,6 +38,11 @@ Or install it yourself as:
 
     $ pretty_qrcode input.jpg output.jpg 'http://github.com/dongqs/pretty_qrcode' [version] [correction_level]
 
+## References
+
+This program is a simplified implementation based on
+
+    http://cgv.cs.nthu.edu.tw/Projects/Recreational_Graphics/Halftone_QRCodes/
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/pretty_qrcode/fork )
