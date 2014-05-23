@@ -2,6 +2,8 @@
 
 generate prtty qrcode
 
+![generated pretty qrcode example](https://raw.githubusercontent.com/dongqs/pretty_qrcode/master/example.jpg)
+
 ## Is it good?
 
 Yes
@@ -43,6 +45,7 @@ Or install it yourself as:
 This program is a simplified implementation based on
 
     http://cgv.cs.nthu.edu.tw/Projects/Recreational_Graphics/Halftone_QRCodes/
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/pretty_qrcode/fork )
