@@ -27,7 +27,7 @@ Or install it yourself as:
 
 ## Usage
 
-pretty_qrcode input.jpg output.jpg 'http://github.com/dongqs/pretty_qrcode' [version] [correction_level]
+    $ pretty_qrcode input.jpg output.jpg 'http://github.com/dongqs/pretty_qrcode' [version] [correction_level]
 
 ## Contributing
 
